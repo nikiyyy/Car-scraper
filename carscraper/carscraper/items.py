@@ -3,10 +3,20 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy.item import Item, Field
 
 
-class CarscraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Car(Item):
+    Brand = Field()
+    Model = Field()
+    Year = Field()
+    Price = Field()
+    Price_History = Field()
+    Currency = Field()
+    Comments = Field()
+    Dealer = Field()
+    Location = Field()
+    Url = Field()
+    Crawl_id = Field()
+    Last_Seen = Field()
+    Trail = Field()
