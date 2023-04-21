@@ -6,7 +6,7 @@
 from scrapy.item import Item, Field
 
 
-class Car(Item):
+class Vehicle(Item):
     Brand = Field()
     Model = Field()
     Year = Field()
