@@ -1,5 +1,5 @@
 from scrapy.spiders import Spider
-from scrapy import Selector, Request
+from scrapy import Selector
 from ..items import Vehicle
 
 class Mixin():
